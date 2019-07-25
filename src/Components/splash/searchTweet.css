@@ -1,0 +1,57 @@
+.tweetCard{
+    border: 1px solid black;
+    padding: .5em;
+    text-align: left;
+    background-color: white;
+    font-style: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap';
+}
+
+.search{
+    border-radius: 25px;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    column-gap: 2em;
+
+}
+
+#star{
+    margin-left:-0.2em;
+}
+
+#favButton{
+    width:40px;
+    height:40px;
+    float: right;
+    position: relative;
+    margin:-0.4em;
+    
+ 
+   
+}
+.searchTweetHeader{
+    background-color: rgb(228, 228, 228);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+   
+}
+.textBox{
+    width:300px;
+}
+
+.amountSearch{
+    margin-right: -3em;
+}
+.addTip{
+    float: right;
+    
+}
+.deleteTip{
+    float: right;
+}
